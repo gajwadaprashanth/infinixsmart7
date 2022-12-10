@@ -47,8 +47,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 section {
-    min-height: 100vh;
-    padding: 1rem 10%;
+    min-height: 50vh;
     padding-top: 8.5rem;
 }
 
@@ -134,20 +133,7 @@ header #menu-bar {
     overflow: hidden;
 }
 
-.home::before,
-.home::after {
-    content: '';
-    position: absolute;
-    top: 5rem;
-    right: -6rem;
-    background: var(--yellow);
-    border-radius: 3rem;
-    transform: rotate(-45deg);
-    height: 40rem;
-    width: 70rem;
-    z-index: -2;
-    animation: animte 1s linear 1;
-}
+
 
 @keyframes animte {
     0% {
