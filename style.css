@@ -486,7 +486,7 @@ section {
 }
 
 #slider-header.normal {
-    top: 0px;
+    top: 80px;
 
 }
 
@@ -496,7 +496,31 @@ section {
 }
 
 
-/* moving header to top on sliders in view port start */
+/* moving header to top on sliders in view port end */
+
+
+/* slider description style  start*/
+#slider-description {
+    display: flex;
+    position: relative;
+    top: -50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 2s;
+}
+
+#slider-description.show {
+    opacity: 1;
+
+}
+
+#slider-description.hide {
+    opacity: 0;
+}
+
+
+/* slider description style end */
 .btn {
     font-size: 1.7rem;
     padding: .7rem 4rem;
