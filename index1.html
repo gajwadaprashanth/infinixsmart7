@@ -2,31 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Complete Responsive FOOD Website Design Tutorial</title>
 
     <!-- aos css cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
     <!-- google fonts cdn link  -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+        rel="stylesheet" />
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
     <!-- header section starts  -->
 
     <header>
-
-        <a href="#" class="logo"><img src="images/1.jpg" alt=""></a>
+        <a href="#" class="logo"><img src="images/1.jpg" alt="" /></a>
 
         <div id="menu-bar" class="fas fa-hamburger"></div>
 
@@ -40,21 +40,15 @@
                 <li><a href="#order">order</a></li>
                 <li>
                     <a>
-                        <div class="popup" onmouseover="myFunction()">Cart
+                        <div class="popup">
+                            Cart
                             <span class="popuptext" id="myPopup"></span>
                         </div>
                     </a>
                 </li>
-
             </ul>
         </nav>
-
     </header>
-
-    <!-- header section ends -->
-
-    <!-- home section starts  -->
-
     <section class="home" id="home">
 
         <div class="image" data-aos="fade-up">
@@ -92,123 +86,134 @@
     </div>
     </div>
 
-    <!-- popular section ends -->
-
-    <!-- gallery section starts  -->
-
-    <section class="gallery" id="gallery">
-
-        <h1 class="heading"> our food <span>gallery</span> </h1>
-
-        <div class="box-container">
-
-            <div class="box" data-aos="fade-up">
-                <img src="images/img1.jpg" alt="">
-                <h3>delicious food</h3>
+    <!-- slide show starts here -->
+    <section id="#slideshow">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">1 / 3</div> -->
+                <img src="images/carousel/1/s_1_1.png" style="width: 100%; height: 360px" />
+                <!-- <div class="text">Caption Text</div> -->
             </div>
 
-            <div class="box" data-aos="fade-up">
-                <img src="images/img2.jpg" alt="">
-                <h3>delicious food</h3>
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">2 / 3</div> -->
+                <img src="images/carousel/1/s_1_2.png" style="width: 100%; height: 360px" />
+                <!-- <div class="text">Caption Two</div> -->
             </div>
 
-            <div class="box" data-aos="fade-up">
-                <img src="images/img3.jpg" alt="">
-                <h3>delicious food</h3>
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 3</div> -->
+                <img src="images/carousel/1/s_1_3.png" style="width: 100%; height: 360px" />
+                <!-- <div class="text">Caption Three</div> -->
             </div>
-
-            <div class="box" data-aos="fade-up">
-                <img src="images/img4.jpg" alt="">
-                <h3>delicious food</h3>
-            </div>
-
-            <div class="box" data-aos="fade-up">
-                <img src="images/img5.jpg" alt="">
-                <h3>delicious food</h3>
-            </div>
-
-            <div class="box" data-aos="fade-up">
-                <img src="images/img6.jpg" alt="">
-                <h3>delicious food</h3>
-            </div>
-
         </div>
+        <br />
 
+        <div style="text-align: center">
+            <span class="dot" style="background-color: #2595dc" onclick="currentSlide(1)"></span>
+            <span class="dot" style="background-color: #edefee" onclick="currentSlide(2)"></span>
+            <span class="dot" style="background-color: #3d4c5d" onclick="currentSlide(3)"></span>
+        </div>
     </section>
 
-    <!-- gallery section ends -->
+    <!-- slide show ends here -->
 
-    <!-- order section starts  -->
+    <!-- aos js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-    <section class="order" id="order">
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        <h1 class="heading"> make an <span>order</span> </h1>
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
 
-        <div class="row">
+    <!-- initializing aos  -->
 
-            <form action="" data-aos="fade-right" id="target">
-                <input type="text" placeholder="food name" class="box">
-                <input type="text" placeholder="your name" class="box">
-                <input type="email" placeholder="your email" class="box">
-                <input type="password" placeholder="your password" class="box">
-                <input type="number" placeholder="your number" class="box">
-                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
-                <input type="submit" value="order now" class="btn">
-            </form>
+    <script>
+        AOS.init({
+            delay: 400,
+            duration: 1000,
+        });
+        function isInViewport(el) {
+            const rect = el.getBoundingClientRect();
 
-            <div class="image" data-aos="fade-left">
-                <img src="images/form-img.jpg" alt="">
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- order section ends -->
-
-    <!-- footer section starts  -->
-
-    <div class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h3>contact info</h3>
-                <p> <i class="fas fa-map-marker-alt"></i> hyderabad, india 504214 </p>
-                <p> <i class="fas fa-envelope"></i> kummarishekhar9@gmail.com </p>
-                <p> <i class="fas fa-phone"></i> +91 9603053523</p>
-
-            </div>
-
-            <h1 class="credit">created by <a href="#">shekhar kummari</a> all rights reserved. </h1>
-
-        </div>
-
-        <!-- footer section ends -->
-
-        <!-- aos js cdn link  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-        <!-- jquery cdn link  -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-        <!-- custom js file link  -->
-        <script src="./script.js"></script>
-
-        <!-- initializing aos  -->
-
-        <script>
-            AOS.init({
-                    delay: 400,
-                    duration: 1000
-                })
-                // When the user clicks on div, open the popup
-            function myFunction() {
-                var popup = document.getElementById("myPopup");
-                popup.classList.toggle("show");
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <=
+                (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <=
+                (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+        //slide show functionality starts here
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        let slideShowStarted = false;
+        function currentSlide(n) {
+            showSlides((slideIndex = n));
+        }
+        let slideShowTimer = null;
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
             }
-        </script>
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+        function slideShow(n) {
+            let slides = document.getElementsByClassName("mySlides");
 
+            let slideNo = n;
+            if (n > slides.length) {
+                slideNo = 1;
+            }
+
+            if (slideShowTimer) {
+                clearTimeout(slideShowTimer);
+            }
+            showSlides((slideIndex = slideNo));
+            slideShowTimer = setTimeout(() => {
+                if (slideShowStarted) {
+                    slideShow(slideNo + 1);
+                } else {
+                    showSlides((slideIndex = 1));
+                }
+            }, 2000);
+        }
+
+        document.addEventListener("scroll", function () {
+            const slideSection = document.querySelector(".slideshow-container");
+            const rect = slideSection.getBoundingClientRect();
+            // const viewPortWidth=window.innerWidth||document.documentElement.clientWidth;
+            // const viewPortHeight=window.innerHeight||document.documentElement.clientHeight;
+
+            // if (rect.y > -242.359375 && rect.y < 490.640625) {
+            //     if (!slideShowStarted) {
+            //         slideShow(1);
+
+            //     }
+            //     slideShowStarted = true;
+
+            // }
+            // else {
+            //     slideShowStarted = false;
+            // }
+        });
+      // slideshow functionality ends here
+    </script>
 </body>
 
 </html>
