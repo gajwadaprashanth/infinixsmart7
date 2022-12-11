@@ -127,7 +127,7 @@
 
     <!-- slide show ends here -->
     <!-- sliderbox start -->
-    <section>
+    <section style="margin-top: 35px;">
         <div id="sliders-parent">
             <!-- slider starts here -->
             <section id="slider" style="margin-top: 20px;margin-bottom: 20px;">
@@ -184,7 +184,9 @@
             </section>
 
             <!-- slider ends here -->
-            <div id="slider-header"
+            <div>
+
+                <div id="slider-header"
                 style="width:100%;display:flex;justify-content:center;align-items:center;flex-direction: column; position: relative; ">
                 <div style="text-align: center;">
                     <h1 style="color: #00c325;font-size: 28px;font-family:sans-serif;">
@@ -206,6 +208,20 @@
 
 
             </div>
+            <div id="slider-description">
+                <div style="font-weight: 600;font-size: 30px;">
+                    LPDDR4X
+                </div>
+                <div style="font-weight: 400;font-size: 30px;">
+                    Fast Speed RAM
+                </div>
+                <div style="margin-left: 25%;margin-top: 20px;">
+                   <img src="images/carousel/2/c_h_1.png" width="80%" height="auto"/>
+                </div>
+
+            </div>
+            </div>
+            
 
 
             <!-- reverse slider starts here -->
@@ -362,15 +378,19 @@
             //moving carousel header
             const slidersHeader = document.querySelector("#slider-header");
             const slidersParent = document.querySelector("#sliders-parent");
-
+           const sliderDesciption=document.querySelector("#slider-description");
             if (isInViewport(slidersParent)) {
                 slidersHeader.classList.remove("normal");
                 slidersHeader.classList.add("move");
+                sliderDesciption.classList.remove("hide");
+                sliderDesciption.classList.add("show");
 
             }
             else {
                 slidersHeader.classList.remove("move");
                 slidersHeader.classList.add("normal");
+                sliderDesciption.classList.remove("show");
+                sliderDesciption.classList.add("hide");
             }
         });
 
