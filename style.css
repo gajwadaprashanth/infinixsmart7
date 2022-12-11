@@ -2,9 +2,9 @@
     top: 8%;
     left: 49%;
     width: 290px;
-height: 53px;
-/* UI Properties */
-opacity: 1;
+    height: 53px;
+    /* UI Properties */
+    opacity: 1;
     font-size: 30px;
     position: absolute;
 }
@@ -15,7 +15,7 @@ opacity: 1;
     position: absolute;
 }
 
-#storage{
+#storage {
     top: 2900px;
     position: absolute;
     left: 150px;
@@ -23,12 +23,12 @@ opacity: 1;
     height: 64px;
     text-align: left;
     font: normal normal bold 40px/10px DINPro;
-    letter-spacing: 0px ;
+    letter-spacing: 0px;
     color: #00D6A5;
     opacity: 1;
 }
 
-#bigger{
+#bigger {
     top: 2950px;
     position: absolute;
     left: 150px;
@@ -53,7 +53,7 @@ opacity: 1;
     height: 64px;
     text-align: left;
     font: normal normal bold 64px/10px DINPro;
-    letter-spacing: 0px ;
+    letter-spacing: 0px;
     color: #00D6A5;
     opacity: 1;
 }
@@ -127,6 +127,7 @@ section {
     min-height: 50vh;
     padding-top: 8.5rem;
 }
+
 
 /* carousel styling start here */
 .wrap {
@@ -214,16 +215,16 @@ section {
 }
 
 /* carousel styling ends here */
+
+
 /* slide show styling start */
 
-/* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -240,19 +241,16 @@ section {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Caption text */
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -272,7 +270,6 @@ section {
     top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
     height: 15px;
@@ -286,7 +283,7 @@ section {
 
 .active,
 .dot:hover {
-    border: 1px solid #2b139b;
+    border: 3px solid #139b6d;
 }
 
 /* Fading animation */
@@ -315,7 +312,181 @@ section {
     }
 }
 
-/* lide show ends here */
+/* slide show ends here */
+
+
+/* slider styling stats here */
+
+
+#slider {
+    min-height: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 20px;
+    z-index: 2;
+}
+
+
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: slide 40s linear infinite;
+    animation: slide 40s linear infinite;
+    display: flex;
+    width: calc(250px * 10);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* slider styling ends here  */
+
+/* reverse sliding syling starts here  */
+
+#slider-r {
+    min-height: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(-250px * 7);
+    }
+
+    100% {
+        transform: translateX(calc(0));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(-1750px);
+    }
+
+    100% {
+        transform: translateX(calc(0));
+    }
+}
+
+.slider-r {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider-r::before,
+.slider-r-::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider-r::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(-180deg);
+}
+
+.slider-r::before {
+    left: 0;
+    top: 0;
+}
+
+.slider-r .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(-250px * 14);
+}
+
+.slider-r .slide {
+    height: 100px;
+    width: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* reverse sliding styling ends here */
+
+/* moving header to top on sliders in view port start */
+#slider-header {
+    top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: top 2s;
+}
+
+#slider-header.normal {
+    top: 0px;
+
+}
+
+#slider-header.move {
+    top: -230px;
+
+}
+
+
+/* moving header to top on sliders in view port start */
 .btn {
     font-size: 1.7rem;
     padding: .7rem 4rem;
