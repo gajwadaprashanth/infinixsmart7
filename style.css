@@ -578,6 +578,26 @@ section {
 
 
 /* display feature styling ends here */
+
+
+/* camera styling starts here  */
+
+.camera-container {
+    position: relative;
+    background-color: #ffffff;
+}
+
+.camera-container .description {
+    position: absolute;
+    top: 32%;
+    left: 15%;
+}
+
+
+/* camera styling ends here */
+
+
+
 .btn {
     font-size: 1.7rem;
     padding: .7rem 4rem;
