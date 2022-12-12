@@ -16,9 +16,6 @@
 }
 
 #storage {
-    top: 3650px;
-    position: absolute;
-    left: 150px;
     width: 808px;
     height: 64px;
     text-align: left;
@@ -29,9 +26,6 @@
 }
 
 #bigger {
-    top: 3700px;
-    position: absolute;
-    left: 150px;
     width: 900px;
     height: 104px;
     /* UI Properties */
@@ -46,19 +40,16 @@
 }
 
 .additional{
-    position: absolute;
-    top: 3900px;
+    position: relative;
+    top: 150px !important;
     left: 150px;
+    margin-bottom: -480px;
 }
 
-.subadditional{
-    display: inline-block;
-}
+
 
 .threed {
-    top: 2000px;
-    position: absolute;
-    left: 200px;
+
     width: 808px;
     height: 64px;
     text-align: left;
@@ -66,12 +57,18 @@
     letter-spacing: 0px;
     color: #00D6A5;
     opacity: 1;
+    
+}
+
+#infi{
+    position: relative;
+    top: 70px;
+    left: 200px;
+    margin-bottom: -280px;
 }
 
 .htext {
-    top: 2080px;
-    position: absolute;
-    left: 200px;
+
     width: 574px;
     height: 104px;
     /* UI Properties */
