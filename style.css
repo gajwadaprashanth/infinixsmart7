@@ -10,49 +10,234 @@
     /* transition: all .2s linear; */
 }
 
-.front{
+.front {
     width: 484px;
-height: 64px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 45px/40px DINPro;
-letter-spacing: 0px;
-color: #9758FD;
+    height: 64px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 45px/40px DINPro;
+    letter-spacing: 0px;
+    color: #9758FD;
 
 }
 
-.frontcam{
+.frontcam {
     margin-top: 40px;
     font: normal normal normal 18px/24px DINPro;
-letter-spacing: 0px;
-color: #606060;
-opacity: 1;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
 }
 
-.bright{
+.bright {
     margin-top: 28px;
     text-align: left;
-font: normal normal normal 34px/34px DINPro;
-letter-spacing: 0px;
-color: #000000;
+    font: normal normal normal 34px/34px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
 }
 
-.mahtext{
+.mahtext {
     margin-left: 12.5rem;
 }
 
-.extra{
-    margin-top: 5rem;
-    text-align: left;
-font: normal normal normal 20px/33px DINPro;
-letter-spacing: 0px;
-color: #606060;
-opacity: 1;
+.beez {
+    text-align: center;
 }
 
-.soft{
+.three {
+    margin-top: 5rem;
+    text-align: left;
+    font: normal normal normal 4rem/3rem DINPro;
+    letter-spacing: 0px;
+    color: #841DFF;
+    opacity: 1;
+    margin-right: 10.5rem;
+}
+
+.physical {
+    margin-top: 4rem;
+    text-align: left;
+    font: normal normal normal 20px/33px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+.fingerprint {
+    font: normal normal bold 53px/52px DINPro;
+    letter-spacing: 0px;
+    color: #E96206;
+}
+
+.rig {
+    font: normal normal bold 53px/52px DINPro;
+    letter-spacing: 0px;
+    color: #E96206;
+    opacity: 1;
+}
+
+.infinix {
+    text-align: left;
+    margin-left: 6rem;
+    font: normal normal normal 20px/33px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+.ai {
+    width: 30%;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-radius: 35px;
+    opacity: 1;
+    margin-right: 2rem;
+    padding-top: 3rem;
+}
+
+.aigallery {
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 30px/30px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-left: 5rem;
+}
+
+.albums {
+    text-align: left;
+    font: normal normal normal 19px/29px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    opacity: 1;
+    padding-left: 5rem;
+}
+
+.superenduring {
+    font: normal normal normal 21px/37px DINPro;
+}
+
+.fingerimage {
+    margin-right: 5rem;
+    background: #F8CA73;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+.notes {
+    margin-left: 18rem;
+    text-align: left;
+    font: normal normal normal 16px/20px DINPro;
+    letter-spacing: 0px;
+    color: #666666;
+    opacity: 1;
+}
+
+.upto7b {
+    text-align: left;
+    font: normal normal normal 17px/27px DINPro;
+    letter-spacing: -0.12px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 4rem;
+}
+
+.impress1 {
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 22px/27px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-left: 5rem;
+}
+
+.timesdrop {
+    position: relative;
+    top: 15rem;
+    left: 30rem;
+    margin-top: -30px;
+    margin-right: 16rem;
+    text-align: center;
+    font: normal normal normal 25px/33px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.silver {
+
+    text-align: left;
+    font: normal normal bold 53px/52px DINPro;
+    letter-spacing: 0px;
+    color: #18D0C1;
+    opacity: 1;
+}
+
+.music {
+
+    text-align: left;
+    font: normal normal normal 2rem/3rem DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.beamusic {
+    margin-top: 3rem;
+    font: normal normal normal 17.5px/22px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+.extra1 {
+    margin-top: 3.5rem;
+    text-align: left;
+    font: normal normal normal 20px/33px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+.extra {
+    margin-top: 5rem;
+    text-align: left;
+    font: normal normal normal 20px/33px DINPro;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+
+.soft {
     display: flex;
     justify-content: flex-end;
+
+}
+
+.two {
+
+    margin-left: 2rem;
+    text-align: left;
+    font: normal normal 30px/10px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.stand {
+    margin-left: 2rem;
+    font: normal normal normal 15px/40px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.fivepersent {
+    margin-top: 4rem;
+    text-align: left;
+    font: normal normal 37px/39px DINPro;
+    letter-spacing: 0px;
+    color: #000000;
 }
 
 .soft .text1 {
@@ -61,12 +246,12 @@ opacity: 1;
     flex: 1 1 39rem;
 }
 
-.mah{
+.mah {
     text-align: left;
-font: normal normal bold 53px/52px DINPro;
-letter-spacing: 0px;
-color: #085EE9;
-opacity: 1;
+    font: normal normal bold 53px/52px DINPro;
+    letter-spacing: 0px;
+    color: #085EE9;
+    opacity: 1;
 }
 
 .soft .image1 {
