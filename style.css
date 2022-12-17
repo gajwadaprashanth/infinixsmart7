@@ -135,7 +135,7 @@
     margin-left: 98rem;
     margin-top: 10.5rem;
     border-radius: 50%;
-    background-color:#744b9f;
+    background-color: #744b9f;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -645,6 +645,16 @@ section {
 
 /* slider styling stats here */
 
+#c_top img,
+#c_bottom img {
+    height: auto;
+    width: 220px;
+    margin-right: 20px;
+}
+
+#c_bottom {
+    transform: translateX(-100%)
+}
 
 #slider {
     min-height: 0;
