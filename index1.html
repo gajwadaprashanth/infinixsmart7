@@ -793,6 +793,7 @@
         let c_wrap_start = null;
         let start_value = null;
         let chip_value = null;
+        let p=0;
         const _chipimage = document.querySelector("#chipimage");
         const sreenImage = document.querySelector("#screen_img");
         const levelText = document.querySelector("#level");
@@ -860,17 +861,17 @@
                 }
                 const pnum=chip_value-checkbox.y-2;
               //console.log('67==',chip_value,pnum,checkbox.y);
-              const prcnt = (checkbox.y / chip_value)*100;
+              const prcnt = (checkbox.y / chip_value)*10;
+              if(prcnt>4){
+                p=6;
+              }else if(prcnt<4){
+                p=-5;
+              }
               console.log("per",prcnt);
-                const count=pnum;
-                const n=0;
-                if(count%10==0){
-                    n=n+1;
-                    console.log("ram",n);
+                if(pnum<260 && prcnt<24){
+                    _chipimage.style.transform = `translate(${-pnum}px, ${-p-prcnt+2.5}px)`;
                 }
-                if(pnum<260){
-                    _chipimage.style.transform = `translate(${-pnum}px, 2px)`;
-                }
+                
             }
 
             if (isInViewport(sreenImage)) {
