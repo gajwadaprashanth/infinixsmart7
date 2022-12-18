@@ -871,8 +871,30 @@ section {
     transform-origin: center bottom;
 }
 
+#z_img {
+    scale: 1;
+    width: 48%;
+    height: 29rem;
+}
+
+
+#display_header {
+    opacity: 1;
+}
+
+#z_parent {
+    scale: 1;
+    top: 15rem;
+    position: relative;
+}
+
+#z_text {
+    scale: 1;
+    opacity: 1;
+}
+
 .sclephn_phn {
-    width: 100%;
+    width: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
