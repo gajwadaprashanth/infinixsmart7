@@ -10,7 +10,7 @@
     /* transition: all .2s linear; */
 }
 
-.chip{
+.chip {
     position: relative;
     top: 36rem;
     margin-left: 87rem;
@@ -277,7 +277,7 @@
     margin-top: 9.5rem;
     margin-left: 34rem;
     flex: 1 1 39rem;
-    
+
 }
 
 .mah {
@@ -873,6 +873,10 @@ section {
     position: relative;
     top: 0;
     height: 100%;
+}
+
+#z_temp {
+    opacity: 1;
 }
 
 .scaleImg-cmn {
