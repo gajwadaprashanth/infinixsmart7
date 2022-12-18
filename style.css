@@ -654,7 +654,12 @@ section {
 
 
 /* slider styling stats here */
-
+#c_description{
+    background-image: url("images/45bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
 #c_top img,
 #c_bottom img {
     height: auto;
