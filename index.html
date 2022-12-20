@@ -280,12 +280,13 @@
     </section>
     <!-- moving carousel box ends here -->
     <!-- stirage section starts  -->
-    <section id="storage_" >
-        <div>
-            <div>
-                <div class="additional" data-aos="fade-right">
-                    <h1 id="storage">Storage Streamlizing Tech</h1>
-                    <p id="bigger">A bigger space than you think. Infinix Storage Streamlizing Tech </br>
+    <section id="storage_" class="">
+        
+            <div class='position-r'>
+                <div  data-aos="fade-right" class="additional" >
+                    
+                    <p id="storage" class="header-2 color-g-2">Storage Streamlizing Tech</p>
+                    <p id="bigger" class="para">A bigger space than you think. Infinix Storage Streamlizing Tech </br>
                         the storage logic of the exsisting files to free up to </br>15% storage space, giving you more
                         space to
                         store your </br> favourite apps, photos and music.</p>
@@ -312,9 +313,11 @@
                         </div>
                     </div>
                 </div>
-                <img data-aos="fade-left" src="images/phngallery.png" style="width: 100%;" alt="">
+                <div class="storage-srtream-image">
+                    <img data-aos="fade-left" class="img_st" src="images/phngallery.png"  alt="">
+                </div>
             </div>
-        </div>
+        
     </section>
     <!-- display feature starts here -->
     <section id="storage_2">
@@ -329,7 +332,10 @@
             <div>
                 <img class="chip" id="chipimage" src="images/chip.png" style="width: 19.7rem;height:13.46rem" alt="">
             </div>
-            <img src="images/pinphn.png" style="width: 100%;" alt="">
+            <div>
+                <img src="images/pinphn.png" style="width: 100%;" alt="">
+            </div>
+
         </div>
     </section>
     <section id='display'>
@@ -806,9 +812,9 @@
                 scale: 1.7,
                 top: '50rem',
             });
-        var scene = new ScrollMagic.Scene({triggerElement: "#display", duration: '100%', triggerHook: 0})
+        var scene = new ScrollMagic.Scene({ triggerElement: "#display", duration: '100%', triggerHook: 0 })
             .setTween(tween)
-            .setPin("#display_box", {pushFollowers: true, })
+            .setPin("#display_box", { pushFollowers: true, })
             .addTo(controller);
         document.addEventListener("scroll", function () {
             // sliding
