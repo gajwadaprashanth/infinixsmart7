@@ -68,6 +68,9 @@
     color: #00c325;
 }
 
+.color-g-3{
+    color: #9758FD;;
+}
 /* colors end */
 .container-r {
     display: flex;
@@ -89,10 +92,6 @@
     font-weight: bold;
 }
 
-.sub-header {
-    font-size: x-large;
-    font-weight: 400;
-}
 
 .sub-header {
     font-size: x-large;
@@ -137,6 +136,10 @@
     color: #000000;
 }
 
+.catering{
+    margin-top: 3rem;
+}
+
 /* up to 2tb starts */
 
 
@@ -175,6 +178,29 @@
 }
 
 /* storage streaming style end */
+
+/* hover image start */
+.screen-1{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-left: 17%;
+    margin-top: -10rem;
+}
+
+/* camera styling starts here  */
+.camera-container {
+    position: relative;
+    background-color: #ffffff;
+}
+
+.camera-container .description {
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
+
+/* camera styling ends here */
+
 @media(min-width:980px) {
     .design_text {
         top: 94px;
@@ -202,6 +228,18 @@
     .img_st {
         height: 747px;
         width: 1349px;
+    }
+
+    .screen-1{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-left: 2%;
+        margin-top: -10rem;
+    }
+    .camera-container .description {
+        position: absolute;
+        top: 32%;
+        left: 10%;
     }
 
     /* storage streaming style end */
@@ -237,7 +275,17 @@
         height: 747px;
         width: 1349px;
     }
-
+    .screen-1{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-left: 5%;
+        margin-top: -10rem;
+    }
+    .camera-container .description {
+        position: absolute;
+        top: 32%;
+        left: 14%;
+    }
     /* storage streaming style end */
 }
 
@@ -269,7 +317,17 @@
         height: 765px;
         width: 1412px;
     }
-
+    .screen-1{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-left: 8%;
+        margin-top: -10rem;
+    }
+    .camera-container .description {
+        position: absolute;
+        top: 32%;
+        left: 18%;
+    }
     /* storage streaming style end */
 
 }
@@ -312,7 +370,17 @@
         height: auto;
         width: 100%;
     }
-
+    .screen-1{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-left: 12%;
+        margin-top: -10rem;
+    }
+    .camera-container .description {
+        position: absolute;
+        top: 32%;
+        left: 20%;
+    }
     /* storage streaming style end */
 
 }
@@ -344,7 +412,17 @@
         height: auto;
         width: 100%;
     }
-
+    .screen-1{
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-left: 17%;
+        margin-top: -10rem;
+    }
+    .camera-container .description {
+        position: absolute;
+        top: 32%;
+        left: 22%;
+    }
 
     /* storage streaming style end */
 }
@@ -1152,19 +1230,7 @@ section {
 }
 
 /* display feature styling ends here */
-/* camera styling starts here  */
-.camera-container {
-    position: relative;
-    background-color: #ffffff;
-}
 
-.camera-container .description {
-    position: absolute;
-    top: 32%;
-    left: 15%;
-}
-
-/* camera styling ends here */
 .btn {
     font-size: 1.7rem;
     padding: .7rem 4rem;
