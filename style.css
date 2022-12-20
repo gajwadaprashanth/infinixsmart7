@@ -641,20 +641,7 @@
 }
 
 
-.catering {
-    padding-top: 60px;
-    width: 600px;
-    height: 144px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-606060);
-    text-align: left;
-    font: normal normal normal 24px/40px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
+
 
 .super {
     top: 9%;
@@ -674,62 +661,6 @@
     opacity: 1;
 }
 
-
-.uptotwotb {
-    position: relative;
-    top: 260px;
-    left: 200px;
-    margin-bottom: -280px;
-}
-
-.up {
-    width: 302px;
-    height: 30px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-64)/var(--unnamed-line-spacing-64) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal bold 30px/64px sans-serif;
-    letter-spacing: 0px;
-    color: #0CD61E;
-}
-
-.expandable {
-    padding-top: 9px;
-    width: 670px;
-    height: 24px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-64) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-000000);
-    text-align: left;
-    font: normal normal normal 34px/64px sans-serif;
-    letter-spacing: 0px;
-    color: #000000;
-}
-
-
-.htext {
-    width: 574px;
-    height: 104px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-606060);
-    text-align: left;
-    font: normal normal normal 24px/40px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
-
-:root {
-    --yellow: #F7CA3E;
-}
-
-h1,
-h3 {
-    font-family: 'Oswald', sans-serif;
-}
 
 *::selection {
     background: var(--yellow);
