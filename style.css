@@ -50,11 +50,86 @@
     font-size: x-large;
     font-weight: 400;
 }
+.sub-header {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.sub-header {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
 .para {
     color: var(--para_font_color);
     font-size: var(--para_font_size);
+    line-height: 24px;
 }
 /* global classe end */
+/* Storage section css */
+.additional {
+    position: relative;
+    top: 150px !important;
+    left: 150px;
+    margin-bottom: -480px;
+}
+
+#storage {
+    width: 808px;
+    height: 64px;
+    text-align: left;
+    font: normal normal bold 40px/10px sans-serif;
+    letter-spacing: 0px;
+    color: #00D6A5;
+    opacity: 1;
+}
+#bigger {
+    width: 900px;
+    height: 104px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-606060);
+    text-align: left;
+    font: normal normal normal 24px/40px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+.catering {
+    padding-top: 2rem;
+
+    /* UI Properties */
+
+    text-align: left;
+
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+/* storage section ends */
+
+/* up to 2tb starts */
+.uptotwotb {
+    position: relative;
+    top: 260px;
+    left: 200px;
+    margin-bottom: -280px;
+}
+.up {
+    width: 302px;
+    height: 30px;
+    text-align: left;
+
+}
+.expandable {
+    padding-top: 33px;
+    /* UI Properties */
+    text-align: left;
+    color: #000000;
+}
+/* up to 2tb starts */
+
 .design_group {
     position: relative;
 }
@@ -70,16 +145,28 @@
         top: 94px;
         /* left: 162px; */
     }
+    .uptotwotb {
+        top: 150px;
+        left: 90px;
+    }
 }
 @media(min-width:1100px) {
     .design_text {
         top: 104px;
         /* left: 192px; */
     }
+    .uptotwotb {
+        top: 210px;
+        left: 150px;
+    }
 }
 @media(min-width:1200px) {
     .design_text {
         top: 114px;
+        left: 19%;
+    }
+    .uptotwotb {
+        top: 200px;
         left: 19%;
     }
 }
@@ -88,14 +175,25 @@
         top: 114px;
         left: 19%;
     }
+    .uptotwotb {
+        top: 260px;
+        left: 19%;
+    }
 }
 @media(min-width:1350px) {
     .design_text {
         top: 132px;
         left: 24%;
     }
+    .uptotwotb {
+        top: 290px;
+        left: 19%;
+    }
 }
 /* main styling ends here  */
+
+
+
 .chip {
     position: relative;
     top: 36rem;
@@ -347,53 +445,15 @@
     font-size: 30px;
     position: absolute;
 }
-.catering {
-    padding-top: 60px;
-    width: 600px;
-    height: 144px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-606060);
-    text-align: left;
-    font: normal normal normal 24px/40px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
+
 .super {
     top: 9%;
     left: 43%;
     position: absolute;
 }
-#storage {
-    width: 808px;
-    height: 64px;
-    text-align: left;
-    font: normal normal bold 40px/10px sans-serif;
-    letter-spacing: 0px;
-    color: #00D6A5;
-    opacity: 1;
-}
-#bigger {
-    width: 900px;
-    height: 104px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-606060);
-    text-align: left;
-    font: normal normal normal 24px/40px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
-.additional {
-    position: relative;
-    top: 150px !important;
-    left: 150px;
-    margin-bottom: -480px;
-}
+
+
+
 .threed {
     width: 808px;
     height: 64px;
@@ -403,35 +463,9 @@
     color: #00D6A5;
     opacity: 1;
 }
-.uptotwotb {
-    position: relative;
-    top: 260px;
-    left: 200px;
-    margin-bottom: -280px;
-}
-.up {
-    width: 302px;
-    height: 30px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-64)/var(--unnamed-line-spacing-64) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
-    font: normal normal bold 30px/64px sans-serif;
-    letter-spacing: 0px;
-    color: #0CD61E;
-}
-.expandable {
-    padding-top: 9px;
-    width: 670px;
-    height: 24px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-64) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-000000);
-    text-align: left;
-    font: normal normal normal 34px/64px sans-serif;
-    letter-spacing: 0px;
-    color: #000000;
-}
+
+
+
 .htext {
     width: 574px;
     height: 104px;
