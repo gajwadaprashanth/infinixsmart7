@@ -94,6 +94,17 @@
     font-weight: 400;
 }
 
+.sub-header {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.sub-header {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+
 .para {
     color: var(--para_font_color);
     font-size: var(--para_font_size);
@@ -101,7 +112,74 @@
 }
 
 /* global classe end */
+
+/* Storage section css */
+.additional {
+    position: relative;
+    top: 150px !important;
+    left: 150px;
+    margin-bottom: -480px;
+}
+
+#storage {
+    width: 808px;
+    height: 64px;
+    text-align: left;
+    font: normal normal bold 40px/10px sans-serif;
+    letter-spacing: 0px;
+    color: #00D6A5;
+    opacity: 1;
+}
+#bigger {
+    width: 900px;
+    height: 104px;
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-606060);
+    text-align: left;
+    font: normal normal normal 24px/40px sans-serif;
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+.catering {
+    padding-top: 2rem;
+
+    /* UI Properties */
+
+    text-align: left;
+
+    letter-spacing: 0px;
+    color: #606060;
+    opacity: 1;
+}
+/* storage section ends */
+
+/* up to 2tb starts */
+.uptotwotb {
+    position: relative;
+    top: 260px;
+    left: 200px;
+    margin-bottom: -280px;
+}
+.up {
+    width: 302px;
+    height: 30px;
+    text-align: left;
+
+}
+.expandable {
+    padding-top: 33px;
+    /* UI Properties */
+    text-align: left;
+    color: #000000;
+}
+/* up to 2tb starts */
+
+
 /* design style start */
+
 .design_group {
     position: relative;
 }
@@ -141,6 +219,12 @@
         /* left: 162px; */
     }
 
+    .uptotwotb {
+        top: 150px;
+        left: 90px;
+    }
+
+
     /* storage treaming style start*/
     .additional {
         top: 150px !important;
@@ -159,6 +243,7 @@
     }
 
     /* storage streaming style end */
+
 }
 
 @media(min-width:1100px) {
@@ -166,6 +251,12 @@
         top: 104px;
         /* left: 192px; */
     }
+
+    .uptotwotb {
+        top: 210px;
+        left: 150px;
+    }
+
 
     /* storage treaming style start*/
     .additional {
@@ -194,6 +285,12 @@
         left: 19%;
     }
 
+    .uptotwotb {
+        top: 200px;
+        left: 19%;
+    }
+
+
     /* storage treaming style start*/
     .additional {
         top: 150px !important;
@@ -212,6 +309,7 @@
     }
 
     /* storage streaming style end */
+
 }
 
 @media(min-width:1300px) {
@@ -219,6 +317,12 @@
         top: 114px;
         left: 19%;
     }
+
+    .uptotwotb {
+        top: 260px;
+        left: 19%;
+    }
+
 
     /* storage treaming style start*/
     .additional {
@@ -248,6 +352,7 @@
     }
 
     /* storage streaming style end */
+
 }
 
 @media(min-width:1350px) {
@@ -255,6 +360,12 @@
         top: 132px;
         left: 24%;
     }
+
+    .uptotwotb {
+        top: 290px;
+        left: 19%;
+    }
+
 
     /* storage treaming style start*/
     .additional {
@@ -277,6 +388,9 @@
 }
 
 /* main styling ends here  */
+
+
+
 .chip {
     position: relative;
     top: 36rem;
@@ -564,6 +678,7 @@
     position: absolute;
 }
 
+
 .catering {
     padding-top: 60px;
     width: 600px;
@@ -597,6 +712,7 @@
     opacity: 1;
 }
 
+
 .uptotwotb {
     position: relative;
     top: 260px;
@@ -628,6 +744,7 @@
     letter-spacing: 0px;
     color: #000000;
 }
+
 
 .htext {
     width: 574px;
