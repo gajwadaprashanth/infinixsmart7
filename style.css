@@ -186,6 +186,7 @@
     margin-left: 17%;
     margin-top: -10rem;
 }
+/* hover image end */
 
 /* camera styling starts here  */
 .camera-container {
@@ -200,6 +201,13 @@
 }
 
 /* camera styling ends here */
+
+/* soft and frount flash start */
+.flash1{
+    text-align: right; 
+    margin-right: 38rem;
+}
+/* soft and frount flash end */
 
 @media(min-width:980px) {
     .design_text {
@@ -240,6 +248,10 @@
         position: absolute;
         top: 32%;
         left: 10%;
+    }
+    .flash1{
+        text-align: right; 
+        margin-right: 18rem;
     }
 
     /* storage streaming style end */
@@ -286,6 +298,10 @@
         top: 32%;
         left: 14%;
     }
+    .flash1{
+        text-align: right; 
+        margin-right: 20rem;
+    }
     /* storage streaming style end */
 }
 
@@ -327,6 +343,10 @@
         position: absolute;
         top: 32%;
         left: 18%;
+    }
+    .flash1{
+        text-align: right; 
+        margin-right: 20rem;
     }
     /* storage streaming style end */
 
@@ -381,6 +401,10 @@
         top: 32%;
         left: 20%;
     }
+    .flash1{
+        text-align: right; 
+        margin-right: 27rem;
+    }
     /* storage streaming style end */
 
 }
@@ -422,6 +446,10 @@
         position: absolute;
         top: 32%;
         left: 22%;
+    }
+    .flash1{
+        text-align: right; 
+        margin-right: 35rem;
     }
 
     /* storage streaming style end */
