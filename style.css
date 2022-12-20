@@ -23,7 +23,7 @@
     height: 64px;
     /* UI Properties */
     text-align: left;
-    font: normal normal bold 45px/40px DINPro;
+    font: normal normal bold 45px/40px sans-serif;
     letter-spacing: 0px;
     color: #9758FD;
     margin-left: -7rem;
@@ -32,7 +32,7 @@
 
 .frontcam {
     margin-top: 40px;
-    font: normal normal normal 18px/24px DINPro;
+    font: normal normal normal 18px/24px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -41,7 +41,7 @@
 .bright {
     margin-top: 28px;
     text-align: left;
-    font: normal normal normal 34px/34px DINPro;
+    font: normal normal normal 34px/34px sans-serif;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -57,7 +57,7 @@
 .three {
     margin-top: 5rem;
     text-align: left;
-    font: normal normal normal 4rem/3rem DINPro;
+    font: normal normal normal 4rem/3rem sans-serif;
     letter-spacing: 0px;
     color: #841DFF;
     opacity: 1;
@@ -67,20 +67,20 @@
 .physical {
     margin-top: 4rem;
     text-align: left;
-    font: normal normal normal 20px/33px DINPro;
+    font: normal normal normal 20px/33px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
 }
 
 .fingerprint {
-    font: normal normal bold 53px/52px DINPro;
+    font: normal normal bold 53px/52px sans-serif;
     letter-spacing: 0px;
     color: #E96206;
 }
 
 .rig {
-    font: normal normal bold 53px/52px DINPro;
+    font: normal normal bold 53px/52px sans-serif;
     letter-spacing: 0px;
     color: #E96206;
     opacity: 1;
@@ -89,7 +89,7 @@
 .infinix {
     text-align: left;
     margin-left: 6rem;
-    font: normal normal normal 20px/33px DINPro;
+    font: normal normal normal 20px/33px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -107,7 +107,7 @@
 .aigallery {
     color: var(--unnamed-color-000000);
     text-align: left;
-    font: normal normal normal 30px/30px DINPro;
+    font: normal normal normal 30px/30px sans-serif;
     letter-spacing: 0px;
     color: #000000;
     padding-left: 5rem;
@@ -115,7 +115,7 @@
 
 .albums {
     text-align: left;
-    font: normal normal normal 19px/29px DINPro;
+    font: normal normal normal 19px/29px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     padding-top: 3rem;
@@ -125,7 +125,7 @@
 }
 
 .superenduring {
-    font: normal normal normal 21px/37px DINPro;
+    font: normal normal normal 21px/37px sans-serif;
 }
 
 @keyframes scaleIn {
@@ -162,7 +162,7 @@
 .notes {
     margin-left: 18rem;
     text-align: left;
-    font: normal normal normal 16px/20px DINPro;
+    font: normal normal normal 16px/20px sans-serif;
     letter-spacing: 0px;
     color: #666666;
     opacity: 1;
@@ -170,7 +170,7 @@
 
 .upto7b {
     text-align: left;
-    font: normal normal normal 17px/27px DINPro;
+    font: normal normal normal 17px/27px sans-serif;
     letter-spacing: -0.12px;
     color: #000000;
     opacity: 1;
@@ -180,7 +180,7 @@
 .impress1 {
     color: var(--unnamed-color-000000);
     text-align: left;
-    font: normal normal normal 22px/27px DINPro;
+    font: normal normal normal 22px/27px sans-serif;
     letter-spacing: 0px;
     color: #000000;
     padding-left: 5rem;
@@ -193,7 +193,7 @@
     margin-top: -30px;
     margin-right: 15rem;
     text-align: center;
-    font: normal normal normal 22px/33px DINPro;
+    font: normal normal normal 22px/33px sans-serif;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -201,7 +201,7 @@
 .silver {
 
     text-align: left;
-    font: normal normal bold 53px/52px DINPro;
+    font: normal normal bold 53px/52px sans-serif;
     letter-spacing: 0px;
     color: #18D0C1;
     opacity: 1;
@@ -210,7 +210,7 @@
 .music {
 
     text-align: left;
-    font: normal normal normal 2rem/3rem DINPro;
+    font: normal normal normal 2rem/3rem sans-serif;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -218,7 +218,7 @@
 
 .beamusic {
     margin-top: 3rem;
-    font: normal normal normal 17.5px/22px DINPro;
+    font: normal normal normal 17.5px/22px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -227,7 +227,7 @@
 .extra1 {
     margin-top: 3.5rem;
     text-align: left;
-    font: normal normal normal 20px/33px DINPro;
+    font: normal normal normal 20px/33px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -236,7 +236,7 @@
 .extra {
     margin-top: 5rem;
     text-align: left;
-    font: normal normal normal 20px/33px DINPro;
+    font: normal normal normal 20px/33px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -252,14 +252,14 @@
 
     margin-left: 2rem;
     text-align: left;
-    font: normal normal 30px/10px DINPro;
+    font: normal normal 30px/10px sans-serif;
     letter-spacing: 0px;
     color: #000000;
 }
 
 .stand {
     margin-left: 2rem;
-    font: normal normal normal 15px/40px DINPro;
+    font: normal normal normal 15px/40px sans-serif;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -268,7 +268,7 @@
 .fivepersent {
     margin-top: 4rem;
     text-align: left;
-    font: normal normal 37px/39px DINPro;
+    font: normal normal 37px/39px sans-serif;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -282,7 +282,7 @@
 
 .mah {
     text-align: left;
-    font: normal normal bold 53px/52px DINPro;
+    font: normal normal bold 53px/52px sans-serif;
     letter-spacing: 0px;
     color: #085EE9;
     opacity: 1;
@@ -313,7 +313,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-606060);
     text-align: left;
-    font: normal normal normal 24px/40px DINPro;
+    font: normal normal normal 24px/40px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -329,7 +329,7 @@
     width: 808px;
     height: 64px;
     text-align: left;
-    font: normal normal bold 40px/10px DINPro;
+    font: normal normal bold 40px/10px sans-serif;
     letter-spacing: 0px;
     color: #00D6A5;
     opacity: 1;
@@ -343,7 +343,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-606060);
     text-align: left;
-    font: normal normal normal 24px/40px DINPro;
+    font: normal normal normal 24px/40px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -362,7 +362,7 @@
     width: 808px;
     height: 64px;
     text-align: left;
-    font: normal normal bold 64px/10px DINPro;
+    font: normal normal bold 64px/10px sans-serif;
     letter-spacing: 0px;
     color: #00D6A5;
     opacity: 1;
@@ -389,7 +389,7 @@
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-64)/var(--unnamed-line-spacing-64) var(--unnamed-font-family-dinpro);
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
-    font: normal normal bold 30px/64px DINPro;
+    font: normal normal bold 30px/64px sans-serif;
     letter-spacing: 0px;
     color: #0CD61E;
 }
@@ -403,7 +403,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
     text-align: left;
-    font: normal normal normal 34px/64px DINPro;
+    font: normal normal normal 34px/64px sans-serif;
     letter-spacing: 0px;
     color: #000000;
 }
@@ -417,7 +417,7 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-606060);
     text-align: left;
-    font: normal normal normal 24px/40px DINPro;
+    font: normal normal normal 24px/40px sans-serif;
     letter-spacing: 0px;
     color: #606060;
     opacity: 1;
@@ -654,12 +654,13 @@ section {
 
 
 /* slider styling stats here */
-#c_description{
+#c_description {
     background-image: url("images/45bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 }
+
 #c_top img,
 #c_bottom img {
     height: auto;
