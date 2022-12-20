@@ -113,48 +113,7 @@
 
 /* global classe end */
 
-/* Storage section css */
-.additional {
-    position: relative;
-    top: 150px !important;
-    left: 150px;
-    margin-bottom: -480px;
-}
 
-#storage {
-    width: 808px;
-    height: 64px;
-    text-align: left;
-    font: normal normal bold 40px/10px sans-serif;
-    letter-spacing: 0px;
-    color: #00D6A5;
-    opacity: 1;
-}
-#bigger {
-    width: 900px;
-    height: 104px;
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-dinpro);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-606060);
-    text-align: left;
-    font: normal normal normal 24px/40px sans-serif;
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
-.catering {
-    padding-top: 2rem;
-
-    /* UI Properties */
-
-    text-align: left;
-
-    letter-spacing: 0px;
-    color: #606060;
-    opacity: 1;
-}
-/* storage section ends */
 
 /* up to 2tb starts */
 .uptotwotb {
@@ -163,18 +122,21 @@
     left: 200px;
     margin-bottom: -280px;
 }
+
 .up {
     width: 302px;
     height: 30px;
     text-align: left;
 
 }
+
 .expandable {
     padding-top: 33px;
     /* UI Properties */
     text-align: left;
     color: #000000;
 }
+
 /* up to 2tb starts */
 
 
