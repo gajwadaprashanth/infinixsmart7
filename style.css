@@ -229,7 +229,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 23rem;
+    margin-left: 27rem;
 }
 
 /* 6.6 hd ends */
@@ -476,7 +476,7 @@
 @media(min-width:1350px) {
     .design_text {
         top: 132px;
-        left: 24%;
+        left: 19%;
     }
 
     .uptotwotb {
@@ -487,7 +487,7 @@
 
     /* storage treaming style start*/
     .additional {
-        margin-left: 15%;
+        left: 19%;
     }
 
     .storage-srtream-image {
@@ -503,13 +503,13 @@
     .screen-1{
         padding-left: 10rem;
         padding-right: 10rem;
-        margin-left: 17%;
+        left: 19%;
         margin-top: -10rem;
     }
     .camera-container .description {
         position: absolute;
         top: 32%;
-        left: 22%;
+        left: 19%;
     }
     .flash1{
         text-align: right; 
@@ -518,7 +518,37 @@
 
     /* storage streaming style end */
 }
+@media(min-width:1500px){
+    .design_text {
+        top: 170px;
+        left: 19%;
+    }
+    .uptotwotb {
+        top: 360px;
+        left: 19%;
+    }
+}
 
+@media(min-width:1650px){
+    .design_text {
+        top: 200px;
+        left: 19%;
+    }
+    .uptotwotb {
+        top: 407px;
+        left: 19%;
+    }
+}
+@media(min-width:1900px){
+    .design_text {
+        top: 210px;
+        left: 19%;
+    }
+    .uptotwotb {
+        top: 512px;
+        left: 19%;
+    }
+}
 /* main styling ends here  */
 
 
